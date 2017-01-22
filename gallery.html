@@ -4,10 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Photography: Home</title>
+    <title>Photography : Gallery</title>
 
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/style.css" />
+
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -19,41 +20,54 @@
             </div>
             <div class="large-8 columns">
                 <ul class="inline-list main-nav">
-                    <li><a class="active" href="index.html">Главная</a></li>
+                    <li><a href="index.html">Главная</a></li>
                     <li><a href="about.html">О нас</a></li>
-                    <li><a href="gallery.html">Галлерея</a></li>
-                    <li><a href="contact.html" data-reveal-id="contactModal" >Контакты</a></li>
+                    <li><a class="active" href="gallery.html">Галлерея</a></li>
+                    <li><a href="contact.html" data-reveal-id="contactModal">Контакты</a></li>
                 </ul>
             </div>
         </div><!-- /.row-->
     </header>
 
     <main>
-    <!-- Orbit Slider JS-->
-        <div class="row slider">
+
+        <div class="row">
             <div class="large-12 columns">
-                <ul class="photo-slides" data-orbit>
+                <ul class="gallery clearing-thumbs" data-clearing>
                     <li>
-                        <img src="img/city1.jpg" alt="City 1"/>
-                        <div class="orbit-caption">
-                            City One
-                        </div>
-                    </li>
-                    <li class="active">
-                        <img src="img/city2.jpg" alt="City 2"/>
-                        <div class="orbit-caption">
-                            City Two
-                        </div>
+                        <a href="img/city1.jpg">
+                            <img class="th" src="img/city1.jpg" title="City One" alt="City One">
+                        </a>
                     </li>
                     <li>
-                        <img src="img/city3.jpg" alt="City 3"/>
-                        <div class="orbit-caption">
-                            City Three.
-                        </div>
+                        <a href="img/city2.jpg">
+                            <img class="th" src="img/city2.jpg" title="City Two" alt="City Two">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/city3.jpg">
+                            <img class="th" src="img/city3.jpg" title="City Three" alt="City Three">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/city4.jpg">
+                            <img class="th" src="img/city4.jpg" title="City Four" alt="City Four">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/city5.jpg">
+                            <img class="th" src="img/city5.jpg" title="City Five" alt="City Five">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="img/city6.jpg">
+                            <img class="th" src="img/city6.jpg" title="City Six" alt="City Six">
+                        </a>
                     </li>
                 </ul>
             </div>
-        </div>
+        </div><!-- /.row-->
+
     </main>
 
     <footer>
